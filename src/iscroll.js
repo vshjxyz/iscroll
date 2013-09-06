@@ -972,7 +972,7 @@ iScroll.prototype = {
 
 		if (!that.zoomed) {
 			that.scroller.style[transitionDuration] = '0';
-			that._resetPos(400);
+			that._resetPos(0);
 		}
 	},
 
